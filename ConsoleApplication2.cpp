@@ -3,6 +3,7 @@
 //Chapter 3 project
 //1_Ingredient_Adjuster
 
+//this program uses the input from the user to determine the amount of ingrediants needed for a variable amount of cookies
 #include <iostream>
 using namespace std;
 
@@ -28,6 +29,11 @@ int main() {
     AmountOfButter = butter * scaleFactor;
     AmountOfFlour = flour * scaleFactor;
 
+    // Display results
+    cout << "To bake " << desiredCookies << " cookies, you need:" << endl;
+    cout << AmountOfSugar << " cups of sugar" << endl;
+    cout << AmountOfButter << " cups of butter" << endl;
+    cout << AmountOfFlour << " cups of flour" << endl;
 
     return 0;
 }
