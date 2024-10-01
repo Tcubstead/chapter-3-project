@@ -41,7 +41,15 @@ int main() {
     // calculate the total amount of interest earned
     totInterest = (balance - principal);
 
+    // Display the result
+    cout << endl << fixed << setprecision(2);
+    cout << "Interest Rate: " << Irate << "%" << endl;
+    cout << "Times Compounded: " << timesCompounded << endl;
+    cout << "Pricipal: $ " << principal << endl;
+    cout << "Interest: $ " << totInterest << endl;
+    cout << "Amount in savings: $ " << balance << endl;
 
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
