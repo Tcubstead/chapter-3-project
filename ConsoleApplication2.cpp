@@ -4,11 +4,17 @@
 //1_Ingredient_Adjuster
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    // recipe ingredients in cups
+    const double sugar = 1.5; 
+    const double butter = 1.0; 
+    const double flour = 2.75;
+
+    return 0;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
