@@ -10,12 +10,19 @@
 using namespace std;
 
 int main() {
-    // Seed the random number generator
+    // random number generator
     srand(static_cast<unsigned int>(time(0)));
 
     // Generate two random numbers between 1 and 20
     int num1 = rand() % 20 + 1;
     int num2 = rand() % 20 + 1;
+
+    // Display the math problem
+    cout << "What is " << num1 << " + " << num2 << "?" << endl;
+
+    // Prompt the student to work on the problem
+    cout << "Press any key when you are ready to check your answer..." << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
