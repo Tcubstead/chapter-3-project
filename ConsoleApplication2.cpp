@@ -11,6 +11,13 @@ int main() {
     const double sugar = 1.5; 
     const double butter = 1.0; 
     const double flour = 2.75;
+    // Variables for user input and calculations
+    int desiredCookies;
+    double AmountOfSugar, AmountOfButter, AmountOfFlour;
+
+    // Ask user for the number of cookies they want to make
+    cout << "Enter the number of cookies you want to make: ";
+    cin >> desiredCookies;
 
     return 0;
 }
