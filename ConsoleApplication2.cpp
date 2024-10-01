@@ -1,5 +1,7 @@
-// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Thomas Cubstead
+// 10/1/24
+// Chapter 3 Project
+// Main
 
 #include <iostream>
 
