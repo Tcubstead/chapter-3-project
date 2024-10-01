@@ -20,9 +20,19 @@ int main() {
     // Display the math problem
     cout << "What is " << num1 << " + " << num2 << "?" << endl;
 
-    // Prompt the student to work on the problem
+    // student works on problem
     cout << "Press any key when you are ready to check your answer..." << endl;
+    
+    // Wait for user input
+    cin.get();
 
+    // Calculate answer
+    int Answer = num1 + num2;
+
+    // Display answer
+    cout << "The correct answer is: " << Answer << endl;
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
