@@ -1,5 +1,7 @@
 // Thomas Cubstead
-//
+//10/1/24
+//Chapter 3 project
+//1_Ingredient_Adjuster
 
 #include <iostream>
 
