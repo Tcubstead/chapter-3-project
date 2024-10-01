@@ -12,7 +12,8 @@ int main() {
     const double sugar = 1.5; 
     const double butter = 1.0; 
     const double flour = 2.75;
-    
+    int cookies = 48;
+
     // Variables for user input and calculations
     int desiredCookies;
     double AmountOfSugar, AmountOfButter, AmountOfFlour;
@@ -22,7 +23,7 @@ int main() {
     cin >> desiredCookies;
     
     // Calculate the scaling factor based on desired cookies
-    double scaleFactor = static_cast<double>(desiredCookies);
+    double scaleFactor = static_cast<double>(desiredCookies) / cookies;
 
     // Calculate the required amounts of each ingredient
     AmountOfSugar = sugar * scaleFactor;
