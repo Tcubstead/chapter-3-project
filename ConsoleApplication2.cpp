@@ -3,7 +3,7 @@
 //Chapter 3 project
 //1_Ingredient_Adjuster
 
-//this program uses the input from the user to determine the amount of ingrediants needed for a variable amount of cookies
+//this program uses the input from the user to determine the amount of ingredients needed for a variable amount of cookies based on the provided recipe
 #include <iostream>
 using namespace std;
 
