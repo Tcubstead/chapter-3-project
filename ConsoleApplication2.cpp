@@ -29,6 +29,18 @@ int main() {
     cout << "Enter the number of times interest is compounded per year: ";
     cin >> timesCompounded;
 
+    // Convert the interest rate from percentage to decimal
+    Irate /= 100;
+
+    // Calculate the balance after one year using the compound interest formula
+    double balance = principal * pow((1 + Irate / timesCompounded), timesCompounded);
+
+    //convert decimal Irate back to percentage
+    Irate = Irate * 100;
+
+    // calculate the total amount of interest earned
+    totInterest = (balance - principal);
+
 
 }
 
